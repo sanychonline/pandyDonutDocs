@@ -881,15 +881,15 @@
   const params = new URLSearchParams(location.search);
   const requested = normalize(params.get("lang"));
   const saved = normalize(
-    localStorage.getItem("pandy-donut-language") ||
-    localStorage.getItem("pandy-donut-support-language")
+    localStorage.getItem("pandyDonut-language") ||
+    localStorage.getItem("pandyDonut-support-language")
   );
   const preferred = navigator.languages?.map(normalize).find(Boolean);
   const initial = requested || saved || preferred || "en";
   const select = document.querySelector("#language-select");
 
   function apply(locale, updateUrl = true) {
-    const strings = translations[locale] || translations.uk;
+    const strings = translations[locale] || translations.en;
     document.documentElement.lang = locale;
     document.documentElement.dir = locale === "ar" ? "rtl" : "ltr";
     document.title = strings.support + " — " + strings.brand;
@@ -905,7 +905,7 @@
     });
 
     select.value = locale;
-    localStorage.setItem("pandy-donut-language", locale);
+    localStorage.setItem("pandyDonut-language", locale);
 
     if (updateUrl) {
       const url = new URL(location.href);

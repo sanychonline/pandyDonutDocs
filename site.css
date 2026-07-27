@@ -1,21 +1,21 @@
 :root {
-  --ink: #27170d;
-  --navy: #5d3418;
-  --blue: #2f6f69;
-  --blue-light: #96cbbd;
-  --paper: #f7dca7;
-  --paper-2: #fff6d8;
-  --text: #4f331f;
-  --muted: #7d5b39;
-  --line: rgba(156, 93, 31, 0.22);
-  --yellow: #f3c64d;
-  --orange: #de7a1f;
-  --teal: #67b8ac;
-  --sand: #c98a46;
-  --white: #fffdf7;
+  --ink: #3B2434;
+  --navy: #7A385D;
+  --blue: #EF5DA8;
+  --blue-light: #F9B5D8;
+  --paper: #FFF0F7;
+  --paper-2: #FFF9FC;
+  --text: #5C364D;
+  --muted: #8E647C;
+  --line: rgba(225, 79, 151, .22);
+  --yellow: #FFC85A;
+  --orange: #EB6AAE;
+  --teal: #6FCF97;
+  --sand: #D89555;
+  --white: #FFFFFF;
+  --shadow: rgba(82, 39, 65, .18);
   --max: 1120px;
   --reading: 790px;
-  --shadow: 0 24px 70px rgba(91, 51, 20, 0.18);
 }
 
 * {
@@ -30,10 +30,10 @@ body {
   margin: 0;
   color: var(--text);
   background:
-    radial-gradient(circle at 14% 14%, rgba(243, 198, 77, 0.2), transparent 20rem),
-    radial-gradient(circle at 86% 20%, rgba(103, 184, 172, 0.16), transparent 26rem),
-    radial-gradient(circle at 50% 92%, rgba(222, 122, 31, 0.12), transparent 30rem),
-    linear-gradient(180deg, #fff8e9 0%, var(--paper) 54%, #e9c06f 100%);
+    radial-gradient(circle at 14% 14%, rgba(255, 200, 90, .28), transparent 20rem),
+    radial-gradient(circle at 86% 20%, rgba(239, 93, 168, .25), transparent 26rem),
+    radial-gradient(circle at 50% 92%, rgba(111, 207, 151, .18), transparent 30rem),
+    linear-gradient(180deg, #FFF9FC 0%, var(--paper) 54%, #F8CBE0 100%);
   font-family: "Avenir Next", "Trebuchet MS", "Segoe UI", sans-serif;
   line-height: 1.7;
   text-rendering: optimizeLegibility;
