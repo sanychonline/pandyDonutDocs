@@ -1,6 +1,6 @@
 # Pandy Donut Docs
 
-Public product and support site for **Pandy Donut** / **Панда Пончик**. The character is **Панда Пончик**, a panda catching falling donuts in a three-lane arcade game.
+Public product and support site for **Pandy Donut** / **Панда Пончик**. The character is **Панда Пончик**, racing through a donut-themed three-lane arcade run.
 
 ## Site content
 
